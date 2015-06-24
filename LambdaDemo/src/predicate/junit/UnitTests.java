@@ -27,5 +27,11 @@ public class UnitTests
 	{
 		assertTrue("Sum of over 30 should be 420", PredicateDemo.sumAll(scores, Helper.isOver30) == 420);
 	}
+	
+	@Test
+	public void sumOfOdd()
+	{
+		assertTrue("Sum of odd should be 166", PredicateDemo.sumAll(scores, Helper.isOdd) == 166);
+	}
 
 }
