@@ -37,7 +37,7 @@ public class UnitTests
 	@Test
 	public void sumOfSquares()
 	{
-		assertTrue("Sum of odd squares be 189", PredicateDemo.sumAll(scores, Helper.isSquare) == 189);
+		assertTrue("Sum of odd squares  should be 189", PredicateDemo.sumAll(scores, Helper.isSquare) == 189);
 	}
 
 }
